@@ -7,7 +7,7 @@
 <div align="center">
 
 # nonebot_plugin_gw2
-_✨*激战2查询*✨_
+_✨激战2 星岬岛查询✨_
 
 <a href="https://github.com/Umamusume-Agnes-Digital/nonebot_plugin_gw2/stargazers">
         <img alt="GitHub stars" src="https://img.shields.io/github/stars/Umamusume-Agnes-Digital/nonebot_plugin_gw2" alt="stars">
@@ -25,9 +25,16 @@ _✨*激战2查询*✨_
     <img src="https://img.shields.io/badge/nonebot-2.0.0rc3-red.svg" alt="NoneBot">
 </div>
 
+## 安装
+
+        pip3 install nonebot_plugin_gw2
+
 ## 指令
 | 指令 | 功能 | 备注 |
 |:-----:|:----:|:----:|
 | gw2日常 | 日常信息 | 【gw2日常明日】 可以查看第二天
-| gw2活动 | 空中网活动和近日公告 | 东 
+| gw2活动 | 空中网活动和近日公告 | 暂无
 | gw2资讯 | 第三方咨询 | 接口暂时不更新... 
+
+## 备注
+本信息数据均来自[激战2 星岬岛](https://gw2.wishingstarmoye.com/gw2api)侵删
