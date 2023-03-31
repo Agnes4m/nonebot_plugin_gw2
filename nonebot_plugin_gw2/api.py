@@ -1,5 +1,5 @@
 import httpx
-import asyncio
+# import asyncio
 try:
     import ujson as json
 except:
@@ -79,6 +79,6 @@ async def zixuns():
     msg1 = msg1.strip('\n')
     return msg1
 
-if __name__ == '__main__':
-    # asyncio.run(daily('tom'))
-    asyncio.run(activity())
+# if __name__ == '__main__':
+#     # asyncio.run(daily('tom'))
+#     asyncio.run(activity())
