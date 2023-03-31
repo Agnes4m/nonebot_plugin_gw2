@@ -4,6 +4,7 @@ try:
     import ujson as json
 except:
     import json
+from nonebot.log import logger
 
 async def get_json(mode):
     if mode=='today':
@@ -53,7 +54,6 @@ async def daily(day:str):
             msg_4ji = msg_4ji + fac['zh'][:-2] + '  '
     msg = msg + msg_tuijian.strip('') + '\n' + msg_4ji.strip('')
     msg = "当前时间为"+ date+'\n'+msg
-    print(msg)
     return msg
 
 async def activity():
@@ -77,9 +77,8 @@ async def zixuns():
     for act in json_data:
         msg1 = msg1 + "[" + act['date'] + "] " + act['title'] + "\n" + act['url'] + '数据来源'+act['type'] + "\n"
     msg1 = msg1.strip('\n')
-    print(msg1)
     return msg1
 
 if __name__ == '__main__':
     # asyncio.run(daily('tom'))
-    asyncio.run(zixuns())
+    asyncio.run(activity())
