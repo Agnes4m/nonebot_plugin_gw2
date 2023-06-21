@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-gw2"
-version = "0.0.2"
+version = "0.0.3"
 description = "gw2 plugin for NoneBot"
 authors = ["Agnes_Digital <Z735803792@163.com>"]
 license = "MIT"

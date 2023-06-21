@@ -5,11 +5,7 @@ from nonebot.plugin import PluginMetadata
 
 from .api import activity , daily,zixuns
 
-__version__ = "0.0.2"
-__plugin_meta__ = PluginMetadata(
-    name="激战2",
-    description='使用api获取星岬岛信息',
-    usage="""
+logo ="""
     ......                  ` .]]@@@@@@@@@@@@@@@@@@@@@@@@@@@@@OO^       
     ......                ,/@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@OO^       
     ......            /O@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@OO^       
@@ -43,7 +39,13 @@ __plugin_meta__ = PluginMetadata(
     @OO\ooO....,*/@^,@@@\..@^[\@@@@@@O]*]//[`@^*^*=OOOOOO^..=OO\...\^.\@
     OOooo^..`./oOO@/ =^\/^.^\\....=]......,/@@^O^*O.... .,][],OO\....\`.
     @Oooo\/]OOOOOO/  .  \.=^....,..........[.,OO^=^.    /    ,`\OO`.....
-    """,
+    """
+    
+__version__ = "0.0.3"
+__plugin_meta__ = PluginMetadata(
+    name="激战2",
+    description='使用api获取星岬岛信息',
+    usage=logo,
     type="application",
     homepage="https://github.com/Agnes4m/nonebot_plugin_gw2",
     supported_adapters={"~onebot.v11"},
