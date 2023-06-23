@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nonebot-plugin-gw2"
+name = "nonebot_plugin_gw2"
 version = "0.0.4"
 description = "gw2 plugin for NoneBot"
 authors = ["Agnes_Digital <Z735803792@163.com>"]

@@ -18,8 +18,8 @@ _✨激战2 星岬岛查询✨_
 <a href="https://jq.qq.com/?_wv=1027&k=HdjoCcAe">
         <img src="https://img.shields.io/badge/QQ%E7%BE%A4-399365126-orange?style=flat-square" alt="QQ Chat Group">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot_plugin_gw2">
-        <img src="https://img.shields.io/pypi/v/nonebot_plugin_gw2/.svg" alt="pypi">
+<a href="https://pypi.python.org/pypi/nonebot-plugin-gw2">
+        <img src="https://img.shields.io/pypi/v/nonebot-plugin-gw2/.svg" alt="pypi">
 </a>
     <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
     <img src="https://img.shields.io/badge/nonebot-2.0.0-red.svg" alt="NoneBot">
